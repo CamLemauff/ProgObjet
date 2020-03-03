@@ -37,4 +37,20 @@ public class Oracle {
     public OrdreInterface getOrdreInterface() {
         return (OrdreInterface) ordre;
     }
+
+    Conseil getConseil() {
+        return conseil;
+    }
+
+    Miracle getMiracle() {
+        return miracle;
+    }
+
+    Ecoute getEcoute() {
+        return ecoute;
+    }
+
+    Ordre getOrdre() {
+        return ordre;
+    }
 }
