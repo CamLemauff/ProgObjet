@@ -18,6 +18,10 @@ public class Oracle {
         return instance;
     }
 
+    public void printConsole(String m) {
+        System.out.println(m);
+    }
+
     public ConseilInterface getConseilInterface() {
         return (ConseilInterface)conseil;
     }
